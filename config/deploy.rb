@@ -6,7 +6,7 @@ set :application, "hayes"
 set :user, "deployer"
 set :deploy_to, "/home/#{user}/#{application}"
 set :deploy_via, :remote_cache
-set :user_sudo, false
+set :use_sudo, false
 
 set :scm, "git"
 set :repository, "https://github.com/webdsquared/#{application}.git"
