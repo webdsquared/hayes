@@ -1,0 +1,16 @@
+<% content_for :title do %>About<% end %>
+<div id="sec-container">
+	<div id="sec-wrap">
+		<div id="sec-main">
+			<div id="sec-pg-hdr">
+				<h2><%= yield(:title)%></h2>
+			</div>
+			<p class="pg-text">Hayes Energy helps hospitals save money on their energy bills with ZERO capital investment. We don't get paid unless we produce cost savings, and there is a simple startup process, with no long term commitment necessary.</p>
+			<p class="pg-text">We are fortunate to work with many leading healthcare systems, and are proud that HCA, HMA, Lifepoint, and other clients credit us with MILLIONS in annual savings throughout their portfolio of facilities.</p>
+			<p class="pg-text">Interested in talking more about how we might be able to serve you? Visit our <%= link_to "Contact Page", "/contact", :class => "link" %> and touch base with us via phone or email.</p>
+		</div>
+		<div id="sec-side">
+			<%= render "partials/side" %>
+		</div>
+	</div>
+</div>

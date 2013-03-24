@@ -1,0 +1,50 @@
+<% content_for :title do %>Clients<% end %>
+<div id="sec-container">
+	<div id="sec-wrap">
+		<div id="sec-main">
+			<div id="sec-pg-hdr">
+				<h2><%= yield(:title)%></h2>
+			</div>
+			<br>
+			<table width="100%">
+				<tr>
+					<td width="33%"><%= image_tag('HCALogo.jpg', :size => "150x77") %></td>
+					<td width="33%"><%= image_tag 'HMALogo.jpg' %></td>
+					<td width="34%"><%= image_tag('ArdentLogo.jpg') %>
+				</tr>
+				<tr>
+					<td><%= image_tag('LifepointLogo.jpg', :size => '150x52') %></td>
+					<td><%= image_tag('CHSLogo.jpg', :size => '200x64') %>
+					<td><%= image_tag('HealthTrust.jpg', :size => '210x50') %>
+				</tr>
+
+			</table>
+			<br>
+			<h2><span style="color:#555;font-weight:500;font-size:.9em;">What they are saying...</span></h2>
+			<center>
+				<p class="pg-text">"Every facility should benefit from this program. And while the savings are significant, we are not sacrificing patient care. Our goal is to have no once notice the program, except maybe our Chief Financial Officers."</p>
+			<p class="pg-text"><span class="quote">Brian Weldy<br>HCA - Vice President of Engineering and Facility Management.</span></p>
+			<br>
+			<p class="pg-text">"It lessens the impact of energy market fluctuations. But more importantly, this brings value to HCA without sacrificing quality healthcare."</p>
+			<p class="pg-text"><span class="quote">Jack Steile<br>HCA - Director of Engineering Programs Management</span></p>
+			<br>
+			<p class="pg-text">"We didn't believe the savings at first. We thought it might have something to do with the cooler summer we had, but our CFO did an analysis and validated the results. Last month we saved almost 15 percent and our year-to-date savings are significant. If you have an aging plant, just keep an open mind. You'll be pleased with the results"</p>
+			<p class="pg-text"><span class="quote">Jackie Desouza, COO<br>Research Medical Center - Kansas City, MO</span></p>
+			<br>
+			<p class="pg-text">University Hospital in Tamarac, Florida is also an older facility, built in 1974. Chief Executive Officer, Lee Chaykin, said the program is saving his hospital 7 to 12 percent monthly. "It is a very painless process. It doesn't take any extra time or paperwork."</p>
+			<p class="pg-text"><span class="quote">Lee Chaykin, CEO<br>University Hospital - Tamarac, FL</span></p>
+			<br>
+			<p class="pg-text">"It is a fairly common sense principle. It's a new culture, a game of savings, sort of 'look at what we got'."</p>
+			<p class="pg-text"><span class="quote">Skip Marsh, Director of Facility Management<br>
+				JFK Medical Center - Atlantis, FL</span></p>
+				<br>
+				<p class="pg-text">"It is something that you want to do. Every day we check the computer and it shows the money we save."</p>
+				<p class="pg-text"><span class="quote">Jim Dunn, Director of Facility Management<br>Corpus Christi Medical Center - Corpus Christi, TX</span></p>
+				<br>
+			</center>
+		</div>
+		<div id="sec-side">
+			<%= render "partials/side" %>
+		</div>
+	</div>
+</div>

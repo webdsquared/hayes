@@ -1,0 +1,53 @@
+<% content_for :title do %>Home<% end %>
+<div id="hm-container">
+	<div id="hm-wrap">
+		<div id="hm-top">
+			<div id="images">
+				<div id="slideshow">
+					<%= image_tag "Spotsylvania.jpg", :class => "active" %>
+					<%= image_tag "SkyRidge.jpg" %>
+					<%= image_tag "SpringView.jpg" %>
+				</div>
+			</div>
+			<div id="hm-text">
+				<br>
+				<h1 class="hm-text">At Hayes Energy Services, Our Goal Is To Cut Your Energy Costs By Up To 10% with Zero Capital Investment.</h1>
+				<p class="hm-text">Community Health Systems (CHS) provides a compelling case study in their Sustainability Report, which refers to the benefits of partnering with Hayes Energy. To view the case study click on the link below.</p>
+				<p class="hm-text"><%= link_to "Sustainability Report", "/documents/CHSSustainability.pdf", :class => "link", :target => "_blank" %>
+				<p class="hm-text">Ascension - Baptist Nashville seeks to cut energy costs by 20%.</p>
+				<p class="hm-text"><%= link_to "Savings Report", "http://www.chausa.org/Pages/Publications/Catholic_Health_World/Catholic_Health_World_Archive/2012/May_15/Ascension_Health_takes_up_challenge_to_cut_its_energy_use_by_20_percent", :class => "link", :target => "_blank" %></p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="bt-container">
+	<div id="bt-wrap">
+		<div id="hm-bottom">
+			<div class="bt-sec">
+				<div class="sec-title">
+					<h2 class="sec">About Our Company</h2>
+				</div>
+				<p class="pg-text">Hayes energy helps hospitals save money on their energy bills with ZERO capital investment. We don't get paid unless we produce cost savings, ...</p>
+				<%= link_to image_tag("Button.png", :size => "90x25"), "/about" %>
+				<br><br>
+			</div>
+			<div class="bt-sec">
+				<div class="sec-title">
+					<h2 class="sec">Our Services</h2>
+				</div>
+				<p class="pg-text">Hayes Energy Services improves the overall efficiency of a hospital's central plant while minimizing the competition between its heating and cooling systems, ultimately saving them money...</p>
+				<%= link_to image_tag("Button.png", :size => "90x25"), "/services" %><br><br>
+			</div>
+			<div class="bt-sec">
+				<div class="sec-title">
+					<h2 class="sec">Our Clients</h2>
+				</div>
+				<p class="pg-text">"Every facility should benefit from this program. And while the savings are significant, we are not sacrificing patient care. Our goal is to have one notice the program, except maybe our CFO."</p>
+				<%= link_to image_tag("Button.png", :size => "90x25"), "/clients" %>
+					
+			<br><br>
+			</div>
+		</div>
+	</div>
+</div>

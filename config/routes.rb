@@ -1,4 +1,21 @@
 Hayes::Application.routes.draw do
+
+  root to: 'pages#home'
+
+  match 'about', to: 'pages#about', as: 'about'
+  get "pages/about"
+
+  match 'clients', to: 'pages#clients', as: 'clients'
+  get "pages/clients"
+
+  match 'services', to: 'pages#services', as: 'services'
+  get "pages/services"
+
+  match 'contact', to: 'pages#contact', as: 'contact'
+  get "pages/contact"
+
+  get "pages/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
