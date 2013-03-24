@@ -12,6 +12,7 @@ set :scm, "git"
 set :repository, "https://github.com/webdsquared/#{application}.git"
 set :branch, "master"
 set :normalize_asset_timestamps, false
+set :use_sudo, false
 
 set :default_environment, {
 	'PATH' => "/home/deployer/.rvm/gems/ruby-1.9.3-p392/bin:/home/deployer/.rvm/gems/ruby-1.9.3-p392@global/bin:/home/deployer/.rvm/rubies/ruby-1.9.3-p392/bin:/home/deployer/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games",
