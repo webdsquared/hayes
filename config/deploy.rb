@@ -3,7 +3,7 @@ require "bundler/capistrano"
 server "198.211.116.188", :web, :app, :db, primary: true
 
 set :application, "hayes"
-set :user, "deployer"
+set :user, "deploy"
 set :deploy_to, "/home/#{user}/#{application}"
 set :deploy_via, :remote_cache
 set :use_sudo, false
