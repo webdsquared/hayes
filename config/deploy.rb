@@ -14,10 +14,10 @@ set :branch, "master"
 set :normalize_asset_timestamps, false
 
 set :default_environment, {
-	'PATH' => "/home/deploy/.rvm/gems/ruby-1.9.3-p392/bin:/home/deployer/.rvm/gems/ruby-1.9.3-p392@global/bin:/home/deployer/.rvm/rubies/ruby-1.9.3-p392/bin:/home/deployer/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games",
+	'PATH' => "/home/deploy/.rvm/gems/ruby-1.9.3-p392/bin:/home/deploy/.rvm/gems/ruby-1.9.3-p392@global/bin:/home/deploy/.rvm/rubies/ruby-1.9.3-p392/bin:/home/deploy/.rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games",
 	'RUBY_VERSION' => '1.9.3p392',
 	'GEM_HOME' => '/home/deploy/.rvm/gems/ruby-1.9.3-p392',
-	'GEM_PATH' => '/home/deploy/.rvm/gems/ruby-1.9.3-p392:/home/deployer/.rvm/gems/ruby-1.9.3-p392@global'
+	'GEM_PATH' => '/home/deploy/.rvm/gems/ruby-1.9.3-p392:/home/deploy/.rvm/gems/ruby-1.9.3-p392@global'
 }
 
 default_run_options[:pty] = true
