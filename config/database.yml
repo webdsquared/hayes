@@ -48,12 +48,11 @@ test:
   password:
   host: localhost
 
-#production:
-#  adapter: postgresql
-#  encoding: unicode
-#  database: hayes_production
-#  pool: 5
-#  username: hayes
-#  password:
-#  host: localhost
-#
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: hayes_production
+  pool: 5
+  username: hayes
+  password: h0lein0ne
+  host: localhost
