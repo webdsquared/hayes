@@ -2,6 +2,7 @@ Hayes::Application.routes.draw do
 
   root to: 'pages#home'
 
+
   match 'about', to: 'pages#about', as: 'about'
   get "pages/about"
 
